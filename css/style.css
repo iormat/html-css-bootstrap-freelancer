@@ -1,5 +1,5 @@
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* debug */
@@ -29,6 +29,7 @@ nav {
 }
 
 /* MAIN */
+    /* portfolio */
 #portfolio {
     margin: 0 auto;
     background-color: burlywood;
@@ -37,4 +38,14 @@ nav {
 .ps_container {
     max-width: 80%;
     margin: 0 auto;
+}
+
+    /* about */
+#about {
+    margin: 50px 0;
+}
+
+    /* debug */
+#about .prova {
+    height: 200px;
 }
