@@ -1,0 +1,40 @@
+body {
+    overflow: hidden;
+}
+
+/* debug */
+.prova {
+    background-color: aqua;
+    height: 50px;
+}
+
+.prova2 {
+    background-color: brown;
+    border: 1px solid #000;
+    height: 50px;
+}    
+
+/* HEADER RULES */
+nav {
+    background-color: #303D4E;
+    height: 70px;
+    width: 100%;
+}
+
+    /* banner */
+#banner {
+    background-color: #58B99D;
+    /* debug */
+    height: 250px;
+}
+
+/* MAIN */
+#portfolio {
+    margin: 0 auto;
+    background-color: burlywood;
+}
+
+.ps_container {
+    max-width: 80%;
+    margin: 0 auto;
+}

@@ -1,0 +1,12 @@
+/* personal container */
+@media screen and (min-width: 572px) {
+    .ps_container {
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .ps_container {
+        max-width: 70%;
+    }
+}
