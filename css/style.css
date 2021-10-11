@@ -50,6 +50,10 @@ nav {
     height: 200px;
 }
 
+#about .ps_container {
+    width: 65%;
+}
+
     /* form */
         /* debug */
 #form {
@@ -65,8 +69,8 @@ nav {
     height: 200px;
 }
     /* copyright */
+        /* debug */
 #copyright {
-    /* debug */
     background-color:darkcyan;
     height: 150px;
 }
