@@ -1,6 +1,12 @@
+/* GENERAL RULES */
 body {
     overflow-x: hidden;
 }
+
+h1, p {
+    text-transform: uppercase;
+}
+
 
 /* debug */
 .prova {
@@ -17,15 +23,39 @@ body {
 /* HEADER RULES */
 nav {
     background-color: #303D4E;
-    height: 70px;
     width: 100%;
+    color: #fff;
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav-item a {
+    text-transform: capitalize;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    background-color: #303D4E;
+}
     /* banner */
 #banner {
+    padding-top: 90px;
     background-color: #58B99D;
-    /* debug */
-    height: 250px;
+    color: #fff;
+    text-align: center;
+}
+
+#banner img {
+    width: 100%;
+    margin-bottom: 20px;    
+}
+
+p {
+    font-size: 1rem;
 }
 
 /* MAIN */
