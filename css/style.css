@@ -34,6 +34,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .nav-item a {
@@ -91,13 +92,14 @@ p {
     padding: 20px 0;
 }
 
-#about > .row {
+#about h2, #about h1 {
     text-align: center;
     color: #fff;
 }
 
 #about .ps_container {
     width: 65%;
+    margin: 0 auto;
 }
 
 #about p {
@@ -105,16 +107,31 @@ p {
     font-weight: bolder;
     text-transform: initial;
 }
-.btn-primary {
-    background-color: transparent;
+
+.btn-down {
+    text-align: center;
 }
 
+.btn-primary {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
 
     /* form */
-        /* debug */
-#form {
-    background-color: cornflowerblue;
-    height: 200px;
+#contact .ps_container {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+#contact .form-control {
+    border: transparent;
+    border-radius: 0;
+    border-bottom: 2px solid #8a8a8a;
+}
+
+#contact .btn-primary {
+    background-color: #59B99D;
+    border: 0;
 }
 
 /* FOOTER */
