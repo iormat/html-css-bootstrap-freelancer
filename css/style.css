@@ -137,8 +137,12 @@ p {
     text-transform: initial;
 }
 
-.loc-subtitle p span {
+.loc-subtitle p span a {
     color: #59B99D;
+    border: 0;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline;
 }
 
 .loc-title, .loc-subtitle {
@@ -146,17 +150,24 @@ p {
     color: #fff;
 } 
 
-.loc-subtitle a {
+.loc-subtitle ul {
+    padding: 0;
+}
+
+.loc-subtitle li {
     display: inline-block;
-    color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     border: 1px solid #fff;
     border-radius: 50%;
-    height: 35px;
-    width: 35px;
-    text-align: center;
-    line-height: 35px;
+    margin: 5px;
+    height: 30px;
+    width: 30px;
 }
+
+.loc-subtitle li a{
+    color: #fff
+}
+
 
     /* copyright */
 #copyright {
