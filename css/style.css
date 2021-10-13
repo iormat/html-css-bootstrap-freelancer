@@ -21,6 +21,7 @@ nav {
     background-color: #303D4E;
     width: 100%;
     color: #fff;
+    max-width: 100vw;
 }
 
 .navbar {
@@ -59,12 +60,12 @@ p {
 /* MAIN */
     /* portfolio */    
 .ps_container {
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
 }
 
 .folio-prev {
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .folio-prev img {
@@ -96,6 +97,7 @@ p {
 
 .btn-down {
     text-align: center;
+    margin: 10px 0;
 }
 
 .btn-primary {
@@ -168,7 +170,6 @@ p {
     color: #fff
 }
 
-
     /* copyright */
 #copyright {
     background-color: #303D4E;
@@ -183,5 +184,5 @@ p {
     text-transform: initial;
     color: #fff;
     margin: 0;
+    font-size: .7rem;
 }
-
